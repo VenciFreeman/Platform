@@ -19,8 +19,10 @@
 - 数据库：**Berkeley DB**。
 
 ## 系统边界
-- 系统语境图：（待添加）；
-- 系统拓补结构图（待添加）。
+![](https://github.com/VenciFreeman/Platform/blob/master/pic/context_map.png)
+
+## 系统部署
+![](https://github.com/VenciFreeman/Platform/blob/master/pic/topology_diagram.png)
          
 ## 团队分工
 - **杨文曦**：负责利用数据库实现用户/商品/订单等信息的管理功能；
