@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Segment, Input, Button } from 'semantic-ui-react'
 import {Link} from "react-router-dom";
 
-class Register extends Component {
+class Register extends Component { 
   render() {
     return (
       <Segment style={{textAlign:'center'}}>
