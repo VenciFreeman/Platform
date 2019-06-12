@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.slick-slide {
+  text-align: center;
+  height: 160px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+.slick-slide h1 {
+  color: #fff;
+}
+#search{
+  position: absolute; 
+  left: 45%; 
+  top: 10%; 
+  text-align: right;
+}
+
+.table{
+  position: absolute; 
+  left: 25%; 
+  top: 20%; 
+  margin: auto;
+}
+.table2{
+  position: absolute; 
+  left: 35%; 
+  top: 20%; 
+  margin: auto;
+}
+.table3{
+  position: absolute; 
+  left: 30%; 
+  top: 20%; 
+  margin: auto;
+}
+
+
