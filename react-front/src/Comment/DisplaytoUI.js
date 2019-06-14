@@ -1,13 +1,13 @@
 import React from "react";
 
-import DeleteComment from "./DeleteComment";
-class DisplaytoUI extends React.Component {
+import Iinterface from "./DeleteComment";
+class CommentController extends React.Component {
   render() {
     let todos = this.props.data;
 
     let todoItems = todos.map(item => {
       return (
-        <DeleteComment
+        <Iinterface
           deleteItem={this.props.deleteItem}
           key={item.id}
           data={item}
@@ -27,4 +27,4 @@ class DisplaytoUI extends React.Component {
   }
 }
 
-export default DisplaytoUI;
+export default CommentController;

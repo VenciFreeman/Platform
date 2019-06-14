@@ -1,6 +1,6 @@
 import React from "react";
 
-class WriteComment extends React.Component {
+class Iinterface extends React.Component {
   submit(event) {
     event.preventDefault();
   }
@@ -41,4 +41,4 @@ class WriteComment extends React.Component {
     );
   }
 }
-export default WriteComment;
+export default Iinterface;

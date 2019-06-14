@@ -1,9 +1,9 @@
 import React from "react";
 
-import DisplaytoUI from "./DisplaytoUI";
-import WriteComment from "./WriteComment";
+import CommentController from "./DisplaytoUI";
+import Iinterface1 from "./WriteComment";
 
-class LiuYanapp extends React.Component {
+class commentFunct extends React.Component {
   constructor(props) {
     super(props);
     this.ids = 1;
@@ -51,8 +51,11 @@ class LiuYanapp extends React.Component {
               软件工程：实践者的研究方法（第7版）
             </h1>
             <h2 className="text-center "> ¥20</h2>
-            <DisplaytoUI deleteItem={this.deleteItem} data={this.state.todos} />
-            <WriteComment addItem={this.addItem} />
+            <CommentController
+              deleteItem={this.deleteItem}
+              data={this.state.todos}
+            />
+            <Iinterface1 addItem={this.addItem} />
           </div>
         </div>
       </div>
@@ -60,4 +63,4 @@ class LiuYanapp extends React.Component {
   }
 }
 
-export default LiuYanapp;
+export default commentFunct;
