@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class OrderItemServiceImplement implements OrderItemService{
+public class OrderItemServiceImplement implements IOrderItemService{
     @Autowired
     private OrderItemRepository orderItemRepository;
 

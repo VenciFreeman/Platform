@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class OrderServiceImplement implements IOrderService{
+public class CommandServiceImplement implements ICommandService{
     @Autowired
     private OrderRepository orderRepository;
 
@@ -18,13 +18,11 @@ public class OrderServiceImplement implements IOrderService{
         return orderRepository.findAll();
     }
 
-    public void addNewOrder(int userid, String date, double totalprice)
+    public void addNewCommand(String command)
     {
-        Order neworder = new Order();
-        neworder.setUser(userid);
-        neworder.setDate(date);
-        neworder.setTotalPrice(totalprice);
-        orderRepository.save(neworder);
+        Command newCommand = new Command();
+        newCommand.setCommand(command);
+        orderRepository.save(newCommand);
         return;
     };
 }

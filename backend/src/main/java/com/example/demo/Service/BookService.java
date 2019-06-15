@@ -4,6 +4,7 @@ import com.example.demo.Entity.Book;
 
 import java.util.List;
 
-public interface BookService {
+public interface IBookService {
     List<Book> findAll();
+	List<Book> SearchingOne();
 }

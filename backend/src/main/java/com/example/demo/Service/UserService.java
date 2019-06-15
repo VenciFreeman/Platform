@@ -4,7 +4,7 @@ import com.example.demo.Entity.User;
 
 import java.util.List;
 
-public interface UserService {
+public interface IUserService {
 
     List<User> findAll();
     User findUserById(Long userid);
