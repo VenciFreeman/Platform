@@ -1,5 +1,7 @@
 # 项目具体信息
-    创建时间：19/03/08     最近更改时间：19/06/12        最后更改者：Venci Freeman
+
+<img src="https://img.shields.io/badge/Language-Java-red.svg" alt="Generic badge"/> <img src="https://img.shields.io/badge/Build-passing-green.svg" alt="Generic badge"/> <img src="https://img.shields.io/badge/Modify-Mar_24,_2020-blue.svg" alt="Generic badge"/>
+
 ***
 > 对于上海交通大学闵行校区校内学生，目前存在校内二手书线上/线下交易的不便问题。我们提供的“**二手书交易Web平台**”是一个Web平台，它能够实现校内二手书的便捷交易。不同于以往的二手书交易平台，比如“孔夫子旧书网”或校内二手书店，我们的产品可以实现近距离交易，可以免去运费和运输时间，也不需要在实体店面拥挤地翻找仓库中想要的书，而且符合我们小组希望将项目和实际学习生活结合起来的愿景，更加具有价值。
 
@@ -27,8 +29,7 @@
 - **订单生成/处理**
 
   - **用例概述**：实现下单/生成订单/确认；
-
-    **优先级**：基础功能，高优先级。
+  - **优先级**：基础功能，高优先级。
 
 - **订单评价**
 
@@ -37,8 +38,9 @@
 
 - **用户信息管理**
 
-  - **用例概述**：实现对注册用户信息的封禁等管理操作。
+  - **用例概述**：实现对注册用户信息的封禁等管理操作；
   - **优先级**：中优先级。
+
 ## 相关信息
 - 拟采用编程语言：**Java/JavaScript**；
 - 用户界面：**Web前端**，**React框架**；
@@ -81,8 +83,7 @@
 - [PSR：Proposing a Standards Recommendation](https://psr.phphub.org "Markdown")；
 - [alloyteam for HTML]( https://www.kancloud.cn/digest/code-guide/42603 "Markdown")；
 - [alloyteam for CSS](<https://www.kancloud.cn/digest/code-guide/42602> "Markdown")；
-- 编写代码**风格需统一，变量名按照标准，格式规范，多写注释**。若编写中出现问题需留下注释，关于问题内容和其他信息，并写上姓名。**一律采用英文注释**；
-- 标准变量表：（待添加）。
+- 编写代码**风格需统一，变量名按照标准，格式规范，多写注释**。若编写中出现问题需留下注释，关于问题内容和其他信息，并写上姓名。**一律采用英文注释**.
 
 ## 代码示例
 - [HTML](https://github.com/VenciFreeman/Platform/tree/master/html_example "Markdown")。
